@@ -1,0 +1,297 @@
+@font-face {
+    src: url(../fonts/Ballo_Bhai/BalooBhai2-Bold.ttf);
+    font-family: BalooBhai;
+}
+
+@font-face {
+    src: url(../fonts/Ballo_Chettan/BalooChettan2-Regular.ttf);
+    font-family: BalooChettan;
+}
+
+@font-face {
+    src: url(../fonts/Jura/static/Jura-Bold.ttf);
+    font-family: Jura;
+}
+
+@font-face {
+    src: url(../fonts/Dosis/static/Dosis-Medium.ttf);
+    font-family: Dosis;
+}
+
+@font-face {
+    src: url(../fonts/Gayathri/Gayathri-Regular.ttf);
+    font-family: Gayathri;
+}
+
+@font-face {
+    src: url(../fonts/Marmelad/Marmelad-Regular.ttf);
+    font-family: Marmelad;
+}
+
+a {
+    color: #1caad1 !important;
+}
+
+.container-fluid, .container {
+    font-family: Dosis;
+}
+
+.Dosis {
+    font-family: Dosis !important;
+}
+
+.body {
+    background-color: #dee5f3;
+}
+
+.menu-bar {
+    background-color: #116982;
+    font-family: Dosis;
+    padding: 0 30px;
+    height: 60px;
+    line-height: 55px;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu-bar ul li a {
+    color: #c1e8f3 !important;
+}
+
+.menu-bar ul li a:hover {
+    color: #FFF;
+}
+
+.menu-bar .search-form input {
+    border: none;
+    outline: none;
+    border-radius: 3px 0 0 3px;
+    height: 35px;
+    padding: 0 15px;
+    width: 350px;
+    
+}
+
+.menu-bar .search-form button {
+    border: none;
+    outline: none;
+    border-radius: 0 3px 3px 0;
+    height: 35px;
+    padding: 0 15px;
+    
+}
+
+.panel {
+    border: 1px solid #c2cfec;
+    border-radius: 3px;
+}
+
+.panel .panel-header {
+    background: linear-gradient(#EEE, #FFF, #EEE);
+}
+
+.font-size-12 {
+    font-size: 12px !important;
+}
+
+.font-size-13 {
+    font-size: 13px !important;
+}
+
+.font-size-14 {
+    font-size: 14px !important;
+}
+.title-banner {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: Dosis;
+}
+
+label {
+    font-weight: normal !important;
+}
+
+.not-icons {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+a.bordered-link div {
+    border: 1px solid #bcc4dd;
+    border-radius: 3px;
+    color: #333;
+    padding: 5px 0;
+    background-color: #f6f8ff;
+}
+
+a.bordered-link div:hover {
+    background-color: #FFF;
+}
+
+.content-center>div {
+    border-left: 1px solid #c2cfec;
+    border-right: 1px solid #c2cfec;
+}
+
+.comment-cover .comment-content {
+    border-radius: 25px;
+}
+
+.comment-form input {
+    border-radius: 25px;
+}
+
+.menu-bar .sm-menu {
+    display: none;
+}
+
+.sub-menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    padding-top: 15px;
+    background-color: #f7f7f8;
+    display: none;
+}
+
+.sub-menu ul {
+    line-height: 25px;
+}
+
+.sub-menu ul li a {
+    color: #2845a5 !important;
+}
+
+.profile-table {
+    margin-top: 0;
+}
+
+.nbNotifications span {
+    border-radius: 2px !important;
+    overflow: hidden;
+}
+
+
+
+@media (max-width: 990px)
+{
+    .profile-table {
+        margin-top: 45px;
+    }
+
+    .menu-bar ul.lg-menu {
+        display: none;
+    }
+
+    .menu-bar ul.sm-menu {
+        display: block;
+    }
+    .title-banner {
+        font-size: 28px;
+    }
+
+    .sub-title {
+        font-size: 16px;
+    }
+
+    .xs-hide {
+        display: none;
+    }
+
+    .xs-center {
+        text-align: center;
+    }
+
+    .side-bar-left {
+        position: absolute;
+        top: 5px;
+        left: 2%;
+        right: 2%;
+        bottom: 0;
+    }
+
+    .content-center {
+        position: absolute;
+        top: 175px;
+        right: 0;
+        left: 0;
+        padding: 0 8px 8px 8px;
+    }
+
+    .menu-bar {
+        padding: 0 10px;
+    }
+
+    .xs-center {
+        text-align: center;
+    }
+}
+
+
+
+
+
+@media(min-width: 960px) {
+    .side-bar-left {
+        position: absolute;
+        top: 60px;
+        left: 10%;
+        width: 20%;
+        bottom: 0;
+    }
+
+    .side-bar-right {
+        position: absolute;
+        top: 60px;
+        right: 10%;
+        width: 20%;
+    }
+
+    .content-center {
+        position: absolute;
+        top: 60px;
+        right: 30%;
+        left: 30%;
+        padding: 0 20px 20px 20px;
+    }
+}
+
+@media(min-width: 1480px) {
+    .side-bar-left {
+        position: absolute;
+        top: 420px;
+        left: 15%;
+        width: 16%;
+        bottom: 0;
+    }
+
+    .side-bar-right {
+        position: absolute;
+        top: 420px;
+        right: 15%;
+        width: 16%;
+    }
+
+    .content-center {
+        position: absolute;
+        top: 420px;
+        right: 31%;
+        left: 31%;
+        padding: 0 20px 20px 20px;
+    }
+}
+
+@media(min-width: 3600px) {
+    .side-bar-left {
+        position: absolute;
+        top: 60px;
+        left: 15%;
+        width: 18%;
+        bottom: 0;
+    }
+}

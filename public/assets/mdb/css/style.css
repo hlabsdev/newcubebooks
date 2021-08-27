@@ -1,0 +1,95 @@
+.side-bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    background-color: #091c8a;
+    font-family: Dosis;
+}
+
+.side-bar .head {
+    background-color: #091977;
+}
+
+.side-bar ul li a.menu-item {
+    color: #c3e0fa;
+}
+
+.side-bar ul li {
+    margin: 10px 0;
+}
+
+.side-bar ul li a.menu-item:hover {
+    color: #FFF;
+}
+
+.wrap-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    font-family: Dosis;
+    overflow: auto;
+}
+
+.font-size-13 {
+    font-size: 13px !important;
+}
+
+.font-size-14 {
+    font-size: 14px !important;
+}
+
+a.float-button {
+    height: 60px;
+    width: 60px;
+    line-height: 80px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.lignes-de-vente-cover {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 400px;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 10px;
+}
+
+.lignes-de-vente-cover .title {
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    border-bottom: 1px solid #CCC;
+}
+
+.lignes-de-vente-cover .body table tr td {
+    font-size: 16px;
+}
+
+@font-face {
+    src: url(../../fonts/Gayathri/Gayathri-Regular.ttf);
+    font-family: Gayathri;
+}
+
+@font-face {
+    src: url(../../fonts/Jura/static/Jura-Regular.ttf);
+    font-family: Jura;
+}
+
+@font-face {
+    src: url(../../fonts/Marmelad/Marmelad-Regular.ttf);
+    font-family: Marmelad;
+}
+
+@font-face {
+    src: url(../../fonts/Dosis/static/Dosis-Regular.ttf);
+    font-family: Dosis;
+}
